@@ -33,11 +33,14 @@ Before diving into the project, ensure you have the following prerequisites set 
 
 **Cybersecurity Chatbot**
 
-CyberBot, a chatbot trained in cybersecurity topics, is built using Flask and ChatterBot.
+Cybersecurity Bot, a chatbot trained in cybersecurity topics, is built using Flask and ChatterBot.
 
-Files:
-app.py: The main file for setting up Flask and training the chatbot.
-index.html: A simple frontend to interact with the chatbot.
+**Files:**
+
+  **app.py:** The main file for setting up Flask and training the chatbot.
+  **index.html:** A simple frontend to interact with the chatbot.
+  **style.css:** Creating a simple and good looking design. 
+  **cybersecurity.yml:** Containing all the needed training data.
 
 
 **Warning Alert Extension**
@@ -69,7 +72,7 @@ To get the chatbot running:
    python app.py
 
 
-3.Open a browser and go to **'http://127.0.0.1:5000/'** to start chatting!
+3. Open a browser and go to **'http://127.0.0.1:5000/'** to start chatting!
 
 
 ## Further Notes
