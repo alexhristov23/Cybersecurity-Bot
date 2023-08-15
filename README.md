@@ -37,29 +37,40 @@ Cybersecurity Bot, a chatbot trained in cybersecurity topics, is built using Fla
 
 **Files:**
 
-  **app.py:** The main file for setting up Flask and training the chatbot.
-  **index.html:** A simple frontend to interact with the chatbot.
-  **style.css:** Creating a simple and good looking design. 
-  **cybersecurity.yml:** Containing all the needed training data.
+**app.py:** The main file for setting up Flask and training the chatbot.
+
+**index.html:** A simple frontend to interact with the chatbot.
+
+**style.css:** Creating a simple and good looking design. 
+
+**cybersecurity.yml:** Containing all the needed training data.
 
 
 **Warning Alert Extension**
 
 A Chrome extension designed to warn users when they try to navigate to potentially malicious websites.
 
-Files:
-background.js: Monitors website access and triggers warnings for flagged URLs.
-content.js: Displays the warning and potentially redirects the user.
-manifest.json: Configuration and setup for the extension.
-popup.html & popup.js: Provides an interface to toggle the extension's functionality.
+**Files:**
+
+**background.js:** Monitors website access and triggers warnings for flagged URLs.
+
+**content.js:** Displays the warning and potentially redirects the user.
+
+**manifest.json:** Configuration and setup for the extension.
+
+**popup.html & popup.js:** Provides an interface to toggle the extension's functionality.
+
 
 
 **Chatbot Browser Extension**
+
 Allows users to directly open the CyberBot chatbot in a new browser tab.
 
-Files:
-manifest.json: Configuration and setup for the extension.
-popup.html & popup.js: Provides an interface button to launch the chatbot.
+**Files:**
+
+**manifest.json:** Configuration and setup for the extension.
+
+**popup.html & popup.js:** Provides an interface button to launch the chatbot.
 
 
 **Running the Chatbot**
