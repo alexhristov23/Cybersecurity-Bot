@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cybersecurity Bot</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Cybersecurity Bot</h1>
+        <div id="theme-switch">
+            <input type="checkbox" id="darkmode" name="darkmode">
+            <label for="darkmode">Dark Mode</label>
+        </div>
+        <div id="chat-container">
+            <div id="chat-log"></div>
+        </div>
+        <div id="example-questions">
+            <button class="example-question" onclick="handleExampleQuestion(this)">What is cybersecurity?</button>
+            <button class="example-question" onclick="handleExampleQuestion(this)">Why is cybersecurity important?</button>
+            <button class="example-question" onclick="handleExampleQuestion(this)">What are some common types of cyber attacks?</button>
+            <button class="example-question" onclick="handleExampleQuestion(this)">How can I protect myself from malware?</button>
+            <button class="example-question" onclick="handleExampleQuestion(this)">What is phishing?</button>
+            <button class="example-question" onclick="handleExampleQuestion(this)">How can I secure my Wi-Fi network?</button>
+        </div>
+        <div id="user-input">
+            <input type="text" id="user-input-box" placeholder="Ask a question..." autofocus>
+            <button id="send-button" onclick="handleUserMessage()">Send</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.21.1/dist/axios.min.js"></script>
+    <script src="/static/script.js"></script>
+</body>
+</html>
