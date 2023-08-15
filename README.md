@@ -31,7 +31,7 @@ Before diving into the project, ensure you have the following prerequisites set 
   pip install chatterbot_corpus
 
 
-**Cybersecurity Chatbot**
+### Cybersecurity Chatbot
 
 Cybersecurity Bot, a chatbot trained in cybersecurity topics, is built using Flask and ChatterBot.
 
@@ -46,7 +46,8 @@ Cybersecurity Bot, a chatbot trained in cybersecurity topics, is built using Fla
 **cybersecurity.yml:** Containing all the needed training data.
 
 
-**Warning Alert Extension**
+
+### Warning Alert Extension
 
 A Chrome extension designed to warn users when they try to navigate to potentially malicious websites.
 
@@ -62,7 +63,7 @@ A Chrome extension designed to warn users when they try to navigate to potential
 
 
 
-**Chatbot Browser Extension**
+### Chatbot Browser Extension
 
 Allows users to directly open the CyberBot chatbot in a new browser tab.
 
@@ -81,7 +82,6 @@ To get the chatbot running:
 2. Run the Flask app:
    ```bash
    python app.py
-
 
 3. Open a browser and go to **'http://127.0.0.1:5000/'** to start chatting!
 
