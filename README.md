@@ -32,6 +32,7 @@ Before diving into the project, ensure you have the following prerequisites set 
 \
 \
 \
+\
 ### Cybersecurity Chatbot
 
 Cybersecurity Bot, a chatbot trained in cybersecurity topics, is built using Flask and ChatterBot.
@@ -48,6 +49,7 @@ Cybersecurity Bot, a chatbot trained in cybersecurity topics, is built using Fla
 \
 \
 \
+\
 ### Warning Alert Extension
 
 A Chrome extension designed to warn users when they try to navigate to potentially malicious websites.
@@ -61,6 +63,7 @@ A Chrome extension designed to warn users when they try to navigate to potential
 **manifest.json:** Configuration and setup for the extension.
 
 **popup.html & popup.js:** Provides an interface to toggle the extension's functionality.
+\
 \
 \
 \
